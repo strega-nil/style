@@ -93,7 +93,8 @@ DO put a space between an argument, and the comma which precedes it.
 
 #### Single-line Calls
 
-DO NOT put a space between the parens, and the first and last arguments.
+DO NOT put a space between the function name and open paren, between the open
+paren and the first argument, or between the last argument and the close paren.
 
 DO NOT put a comma after the last argument.
 
