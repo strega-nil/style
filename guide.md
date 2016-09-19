@@ -132,6 +132,7 @@ Build a tuple or tuple struct as you would call a function.
 #### Single-line
 
 ```rust
+let x = (11, 22, 33);
 struct Bar(Type1, Type2);
 ```
 
