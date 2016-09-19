@@ -175,7 +175,7 @@ documentation.
 
 ### Attributes
 
-Put each attribute on it's own line, indented to the indentation of its item.
+Put each attribute on its own line, indented to the indentation of its item.
 In the case of inner attributes (`#!`), indent it to the inner indentation (the
 indentation of the item + 1).
 
