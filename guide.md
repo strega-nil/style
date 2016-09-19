@@ -170,7 +170,7 @@ literally, so whatever you need to make the raw string literal correct.
 
 ### Doc comments
 
-Only use inner doc comments (`//!` and `/*!`) to write module level
+Only use inner doc comments (`//!` and `/*!`) to write module-level
 documentation.
 
 ### Attributes
