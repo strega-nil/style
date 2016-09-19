@@ -154,7 +154,7 @@ enum FooBar {
 }
 ```
 
-Build an enum as you would a namespaced struct, tuple struct, or constant.
+Build an enum value as you would a namespaced struct, tuple struct, or constant.
 
 ### macro\_rules!
 
