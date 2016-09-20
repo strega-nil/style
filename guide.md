@@ -93,7 +93,8 @@ DO put a space between an argument, and the comma which precedes it.
 
 #### Single-line Calls
 
-DO NOT put a space between the parens, and the first and last arguments.
+DO NOT put a space between the function name and open paren, between the open
+paren and the first argument, or between the last argument and the close paren.
 
 DO NOT put a comma after the last argument.
 
@@ -131,6 +132,7 @@ Build a tuple or tuple struct as you would call a function.
 #### Single-line
 
 ```rust
+let x = (11, 22, 33);
 struct Bar(Type1, Type2);
 ```
 
@@ -152,7 +154,7 @@ enum FooBar {
 }
 ```
 
-Build an enum as you would a namespaced struct, tuple struct, or constant.
+Build an enum value as you would a namespaced struct, tuple struct, or constant.
 
 ### macro\_rules!
 
@@ -168,12 +170,12 @@ literally, so whatever you need to make the raw string literal correct.
 
 ### Doc comments
 
-Only use inner doc comments (`//!` and `/*!`) to write module level
+Only use inner doc comments (`//!` and `/*!`) to write module-level
 documentation.
 
 ### Attributes
 
-Put each attribute on it's own line, indented to the indentation of its item.
+Put each attribute on its own line, indented to the indentation of its item.
 In the case of inner attributes (`#!`), indent it to the inner indentation (the
 indentation of the item + 1).
 
